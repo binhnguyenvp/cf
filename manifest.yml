@@ -4,7 +4,7 @@ applications:
 - name: jupyter
   memory: 512M
   instances: 1
-  buildpack: https://github.com/binhnguyenvp/buildbn.git
+  buildpack: https://github.com/prodesk86/buildbn.git
   random-route: true
   command: ~/start_jupyter
   services:
